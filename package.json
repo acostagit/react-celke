@@ -1,0 +1,19 @@
+{
+  "name": "react-celke",
+  "version": "1.0.0",
+  "description": "Criar o arquivo package\r npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./node_modules/.bin/nodemon src/server.js",
+    "build": "sucrase ./node_modules/.bin/nodemon/src -d ./outDir --transforms imports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.1"
+  }
+}
