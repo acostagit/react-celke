@@ -9,7 +9,7 @@ routes.get('/', (req, res) =>{
 })
 
 routes.get('/contatos', (req, res) =>{
-    res.send("Patricia I, Rosangela, Luiza, Luciana II, Paula, Roseli, Fabiana, MArtinha, Rita de Cassia, Bianca, Val, Palmeira");
+    res.send("Palmeiras");
 })
 
 

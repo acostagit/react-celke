@@ -2,6 +2,6 @@
     "watch":["src"],
     "ext": "js",
     "execMap": {
-        "js": "./node_modules/.bin/nodemon src/server.js"
+        "js": "npx sucrase-node src/server.js"
     }
 }

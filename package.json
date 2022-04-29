@@ -4,8 +4,8 @@
   "description": "Criar o arquivo package\r npm init -y",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./node_modules/.bin/nodemon src/server.js",
-    "build": "sucrase ./node_modules/.bin/nodemon/src -d ./outDir --transforms imports"
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./outDir --transforms imports"
   },
   "author": "",
   "license": "ISC",
